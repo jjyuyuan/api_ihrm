@@ -13,3 +13,4 @@ suite.addTest(unittest.makeSuite(TestUser))
 with open(app.PRO_PATH + "/report/report.html", "wb") as f:
     runner = HTMLTestRunner(f, title="ihrm_report", description="ihrm_report")
     runner.run(suite)
+print("-" * 30)
